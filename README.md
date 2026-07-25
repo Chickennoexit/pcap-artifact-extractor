@@ -19,7 +19,6 @@
 - [🚀 Hướng dẫn cài đặt & Sử dụng (A-Z)](#-hướng-dẫn-cài-đặt--sử-dụng-a-z)
 - [📊 Kết quả mẫu (Sample Output)](#-kết-quả-mẫu-sample-output)
 - [📁 Cấu trúc thư mục dự án](#-cấu-trúc-thư-mục-dự-án)
-- [🛠️ Git Workflow Cheat Sheet](#️-git-workflow-cheat-sheet)
 - [⚠️ Disclaimer](#️-disclaimer)
 
 ---
