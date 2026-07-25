@@ -17,7 +17,6 @@
 ## 📖 Bảng nội dung
 - [✨ Tính năng chính](#-tính-năng-chính)
 - [🚀 Hướng dẫn cài đặt & Sử dụng (A-Z)](#-hướng-dẫn-cài-đặt--sử-dụng-a-z)
-- [📊 Kết quả mẫu (Sample Output)](#-kết-quả-mẫu-sample-output)
 - [📁 Cấu trúc thư mục dự án](#-cấu-trúc-thư-mục-dự-án)
 - [⚠️ Disclaimer](#️-disclaimer)
 
@@ -73,7 +72,6 @@ OUTPUT_DIR=extracted_files
 
 ```
 
-> ⚠️ **LƯU Ý BẢO MẬT:** File `.env` chứa key thật đã được liệt kê trong `.gitignore`. Tuyệt đối **KHÔNG** push file `.env` chứa key thật lên GitHub!
 
 ### Bước 4: Chạy chương trình
 
@@ -84,21 +82,8 @@ python main.py
 
 ---
 
-## 📊 Kết quả mẫu (Sample Output)
 
-```text
-[+] Loading PCAP file...
-[+] Extracted 3 artifacts from network stream:
-    ├── [HTTP] payload_01.exe (SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855)
-    ├── [FTP] document.docx   (SHA256: 410654e6378e918809090333d838e1547820f12d2dd5f532... )
-    └── [DNS] exfiltrated.txt 
 
-[+] VirusTotal Scan Results:
-    ⚠️  payload_01.exe -> MALICIOUS (48/72 vendors flagged)
-    ✅ document.docx   -> CLEAN
-    ℹ️  exfiltrated.txt -> UNKNOWN (File not found in VT database)
-
-```
 
 ---
 
