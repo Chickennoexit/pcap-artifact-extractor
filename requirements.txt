@@ -1,0 +1,5 @@
+pyshark==0.6
+python-magic==0.4.27
+requests==2.31.0
+rich==13.7.1
+python-dotenv==1.0.1

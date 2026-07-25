@@ -1,0 +1,11 @@
+# Cache & Virtual Environment
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Malware & Extracted Artifacts (Cực kỳ quan trọng)
+extracted_files/
+*.exe
+*.dll
+*.bin
