@@ -1,8 +1,4 @@
-Ái chà, tôi nhìn lại rồi — phần đánh số ở mục **"2. các bước cài đặt"** bị tụt mất số và mục **Cấu hình `.env**` bị đẩy ra thành một phần độc lập lớn, làm quy trình cài đặt bị đứt quãng và thiếu mất bước chạy chương trình.
 
-Dưới đây là **bản `README.md` All-In-One chuẩn chỉnh đã gộp liền mạch toàn bộ quy trình cài đặt từ A-Z** (từ `git clone` $\rightarrow$ cài thư viện $\rightarrow$ tạo `.env` $\rightarrow$ chạy `main.py` nằm gọn trong 1 danh sách duy nhất không bị ngắt đoạn):
-
-```markdown
 <div align="center">
 
 # 🔍 PCAP Artifact Extractor
